@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "wedding-app",
+    "slug": "wedding-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/splasherbackground.jpeg",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splasherbackground.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/splasherbackground.jpeg",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.weddingapp"
+    },
+    "web": {
+      "favicon": "./assets/images/splasherbackground.jpeg"
+    }
+  }
+}
