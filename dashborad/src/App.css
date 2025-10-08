@@ -20,7 +20,12 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin-left: 60px;
+  margin-left: 250px;
+  transition: margin-left 0.3s ease;
+}
+
+.main-content.collapsed {
+  margin-left: 70px;
 }
 
 .content {
@@ -646,6 +651,14 @@ body {
   .sidebar.collapsed .menu-text {
     opacity: 1;
     width: auto;
+  }
+  
+  .main-content {
+    margin-left: 70px;
+  }
+  
+  .main-content.collapsed {
+    margin-left: 250px;
   }
   
   .search-bar input {

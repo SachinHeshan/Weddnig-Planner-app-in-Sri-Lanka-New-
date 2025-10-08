@@ -19,7 +19,7 @@ function App() {
     <Router>
       <div className="app">
         <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
-        <div className="main-content">
+        <div className={`main-content ${sidebarOpen ? '' : 'collapsed'}`}>
           <Header toggleSidebar={toggleSidebar} />
           <div className="content">
             <Routes>
